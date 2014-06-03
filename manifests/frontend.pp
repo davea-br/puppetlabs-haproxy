@@ -59,7 +59,7 @@ define haproxy::frontend (
   $ports,
   $ipaddress        = [$::ipaddress],
   $mode             = undef,
-	$sslmode					=	undef,
+	$sslcert					=	undef,
   $collect_exported = true,
   $options          = {
     'option'  => [
